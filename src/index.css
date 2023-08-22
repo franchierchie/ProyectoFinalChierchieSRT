@@ -1,0 +1,34 @@
+@media screen and (max-width: 768px) {
+  .is-fullwidth-mobile {
+      width: 100%;
+  }
+  
+  .mb-2-mobile {
+      margin-bottom: 2rem;
+  }
+
+  .mr-0-mobile {
+      margin-right: 0 !important;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .is-fullwidth-mobile {
+      width: auto;
+  }
+  
+  .mb-2-mobile {
+      margin-bottom: 0;
+  }
+}
+
+.info-container {
+  width: 1px !important;
+}
+
+.text-overflow {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: calc(100% - 40px);
+}
